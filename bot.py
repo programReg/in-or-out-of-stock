@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 
 # Load data from .env file
-load_dotenv('email.env')
+load_dotenv('.env')
 
 # Email details from .env file
 sender_email = os.getenv('SENDER_EMAIL')
